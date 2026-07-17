@@ -29,7 +29,7 @@ const INFO = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative overflow-hidden bg-sand py-24 sm:py-32">
+    <section id="contact" className="relative overflow-hidden bg-sand py-16 sm:py-24 lg:py-32">
       <div className="pointer-events-none absolute -left-24 top-10 h-72 w-72 rounded-full bg-accent/10 blur-3xl" />
       <div className="mx-auto grid max-w-7xl items-start gap-12 px-6 lg:grid-cols-2">
         {/* Left — info */}
@@ -119,14 +119,18 @@ export default function Contact() {
               ))}
               <select
                 defaultValue=""
-                className="w-full rounded-xl border border-white/10 bg-white/5 px-5 py-3.5 text-cream/70 outline-none focus:border-accent"
+                className="w-full appearance-none rounded-xl border border-white/10 bg-white/5 bg-[right_1rem_center] bg-no-repeat px-5 py-3.5 text-cream/70 outline-none focus:border-accent"
+                style={{
+                  backgroundImage:
+                    "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23e0955a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E\")",
+                }}
               >
-                <option value="" disabled className="text-ink">
+                <option value="" disabled style={{ background: "#3a2a1d", color: "#faf5ef" }}>
                   Service you're interested in
                 </option>
                 {["Curtains", "Blinds & Shutters", "Carpets & Rugs", "Upholstery", "Wallpapers", "Sheds & Tents"].map(
                   (s) => (
-                    <option key={s} className="text-ink">
+                    <option key={s} style={{ background: "#3a2a1d", color: "#faf5ef" }}>
                       {s}
                     </option>
                   ),

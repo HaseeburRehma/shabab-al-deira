@@ -9,15 +9,15 @@ const POINTS = [
 
 export default function About() {
   return (
-    <section id="about" className="relative overflow-hidden bg-cream py-24 sm:py-32">
-      <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-2">
+    <section id="about" className="relative overflow-hidden bg-cream py-16 sm:py-24 lg:py-32">
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2">
         {/* Image collage */}
         <Reveal className="relative">
           <div className="relative overflow-hidden rounded-[2rem] shadow-card">
             <img
               src="https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=1100&q=80"
               alt="Curated living room interior"
-              className="h-[520px] w-full object-cover"
+              className="h-[380px] w-full object-cover sm:h-[520px]"
             />
           </div>
           <motion.div

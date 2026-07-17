@@ -16,7 +16,7 @@ const SPANS = [
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="bg-cream py-24 sm:py-32">
+    <section id="gallery" className="bg-cream py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="eyebrow mb-4 text-sm font-semibold text-copper">Our Work</p>

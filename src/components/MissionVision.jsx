@@ -4,14 +4,14 @@ import { MISSION, MISSION_IMG } from "../site";
 
 export default function MissionVision() {
   return (
-    <section id="mission" className="bg-cream py-24 sm:py-32">
-      <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-2">
+    <section id="mission" className="bg-cream py-16 sm:py-24 lg:py-32">
+      <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 lg:grid-cols-2 lg:gap-14">
         {/* Left — stacked About / Mission / Vision */}
         <div className="order-2 lg:order-1">
           {MISSION.map((block, i) => (
             <Reveal key={block.title} delay={i * 0.1}>
-              <div className={i > 0 ? "mt-12" : ""}>
-                <h3 className="font-display text-3xl font-extrabold text-espresso sm:text-4xl">
+              <div className={i > 0 ? "mt-8 sm:mt-12" : ""}>
+                <h3 className="font-display text-2xl font-extrabold text-espresso sm:text-4xl">
                   {block.title}
                 </h3>
                 <div className="mt-4 h-[2px] w-full bg-gradient-to-r from-copper/60 via-linen to-transparent" />
@@ -41,7 +41,7 @@ export default function MissionVision() {
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1.1, ease: "easeOut" }}
-                className="h-[560px] w-full object-cover"
+                className="h-[400px] w-full object-cover sm:h-[560px]"
               />
             </div>
             {/* Decorative accents */}

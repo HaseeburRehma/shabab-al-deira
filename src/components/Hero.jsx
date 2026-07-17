@@ -43,42 +43,42 @@ export default function Hero() {
           Interior Furnishings in Dubai
         </motion.p>
 
-        <motion.h2 variants={item} className="font-script text-4xl italic text-tan sm:text-5xl">
+        <motion.h2 variants={item} className="font-script text-3xl italic text-tan sm:text-5xl">
           Modern Designs
         </motion.h2>
 
         <motion.h1
           variants={item}
-          className="mt-2 font-display text-5xl font-extrabold leading-[0.95] text-white sm:text-7xl lg:text-8xl"
+          className="mt-2 font-display text-[2.6rem] font-extrabold leading-[1.02] text-white sm:text-6xl sm:leading-[0.95] lg:text-8xl"
         >
           Give Your Place
         </motion.h1>
 
         <motion.h1
           variants={item}
-          className="text-outline font-display text-5xl font-extrabold leading-[0.95] sm:text-7xl lg:text-8xl"
+          className="text-outline font-display text-[2.6rem] font-extrabold leading-[1.02] sm:text-6xl sm:leading-[0.95] lg:text-8xl"
         >
           A New Look
         </motion.h1>
 
-        <motion.div variants={item} className="brand-rule mt-8 !w-24" />
+        <motion.div variants={item} className="brand-rule mt-6 !w-24 sm:mt-8" />
 
         <motion.p variants={item} className="mt-6 max-w-xl text-lg leading-relaxed text-cream/85">
           We create personalized, stylish interiors that combine functionality and elegance for residential and
           commercial spaces across Dubai.
         </motion.p>
 
-        <motion.div variants={item} className="mt-10 flex flex-wrap items-center gap-4">
+        <motion.div variants={item} className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:items-center sm:gap-4">
           <a
             href="#services"
-            className="group rounded-full bg-accent px-8 py-4 font-display font-semibold text-white shadow-[0_16px_40px_-14px_rgba(224,149,90,0.9)] transition-transform hover:-translate-y-1"
+            className="group w-full rounded-full bg-accent px-8 py-4 text-center font-display font-semibold text-white shadow-[0_16px_40px_-14px_rgba(224,149,90,0.9)] transition-transform hover:-translate-y-1 sm:w-auto"
           >
             Explore Our Services
             <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">→</span>
           </a>
           <a
             href="#contact"
-            className="rounded-full border border-white/40 px-8 py-4 font-display font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10"
+            className="w-full rounded-full border border-white/40 px-8 py-4 text-center font-display font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10 sm:w-auto"
           >
             Book a Consultation
           </a>

@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* ============================================================
+   SHABAB AL DEIRA — Brand design tokens (from the flyer)
+   Warm copper / brown / cream interior palette
+   ============================================================ */
+@theme {
+  --color-cream: #ffffff;
+  --color-sand: #f6efe6;
+  --color-linen: #e7d8c6;
+  --color-tan: #c89b6e;
+  --color-copper: #b07a4b;
+  --color-accent: #e0955a;   /* logo orange */
+  --color-brown: #6e4e34;
+  --color-espresso: #4a3626; /* deep footer brown */
+  --color-bark: #3a2a1d;
+  --color-ink: #2a2018;
+
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Lato", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Cormorant Garamond", serif;
+
+  --shadow-soft: 0 20px 60px -20px rgba(74, 54, 38, 0.35);
+  --shadow-card: 0 24px 50px -24px rgba(74, 54, 38, 0.45);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-cream);
+  color: var(--color-ink);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* Ghost / outlined text like the reference hero subheading */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.55);
+}
+
+/* Section eyebrow label */
+.eyebrow {
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+/* Thin brand rule under headings */
+.brand-rule {
+  height: 3px;
+  width: 66px;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-copper));
+  border-radius: 99px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-sand);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-copper);
+  border-radius: 99px;
+  border: 3px solid var(--color-sand);
+}
+
+/* Subtle floating animation for hero accents */
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+.animate-floaty {
+  animation: floaty 6s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* Marquee for the trust strip */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 26s linear infinite;
+}

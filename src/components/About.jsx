@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 
 const POINTS = [
@@ -67,12 +68,12 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={0.3}>
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="mt-10 inline-flex items-center gap-2 rounded-full bg-espresso px-8 py-4 font-display font-semibold text-white transition-transform hover:-translate-y-1"
             >
               Start Your Project <span>→</span>
-            </a>
+            </Link>
           </Reveal>
         </div>
       </div>

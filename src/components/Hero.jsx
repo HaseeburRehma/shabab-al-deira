@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { HERO_IMG } from "../site";
 
 const container = {
@@ -69,19 +70,19 @@ export default function Hero() {
         </motion.p>
 
         <motion.div variants={item} className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:items-center sm:gap-4">
-          <a
-            href="#services"
+          <Link
+            to="/services"
             className="group w-full rounded-full bg-accent px-8 py-4 text-center font-display font-semibold text-white shadow-[0_16px_40px_-14px_rgba(224,149,90,0.9)] transition-transform hover:-translate-y-1 sm:w-auto"
           >
             Explore Our Services
             <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">→</span>
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/contact"
             className="w-full rounded-full border border-white/40 px-8 py-4 text-center font-display font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10 sm:w-auto"
           >
             Book a Consultation
-          </a>
+          </Link>
         </motion.div>
       </motion.div>
 

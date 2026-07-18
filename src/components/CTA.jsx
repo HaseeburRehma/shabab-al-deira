@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { BRAND } from "../site";
 
 export default function CTA() {
@@ -50,13 +51,13 @@ export default function CTA() {
             transition={{ delay: 0.15 }}
             className="flex flex-col gap-3"
           >
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="group rounded-full bg-accent px-8 py-4 text-center font-display font-semibold text-white shadow-[0_16px_40px_-14px_rgba(224,149,90,0.95)] transition-transform hover:-translate-y-1"
             >
               Book Free Consultation
               <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">→</span>
-            </a>
+            </Link>
             <a
               href={`https://wa.me/${BRAND.whatsapp}`}
               target="_blank"

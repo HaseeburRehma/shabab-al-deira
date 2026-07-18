@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 import { MISSION, MISSION_IMG } from "../site";
 
@@ -21,12 +22,12 @@ export default function MissionVision() {
           ))}
 
           <Reveal delay={0.3}>
-            <a
-              href="#services"
+            <Link
+              to="/services"
               className="mt-12 inline-flex items-center gap-2 rounded-full border border-espresso/20 px-8 py-4 font-display font-semibold text-espresso transition-colors hover:bg-espresso hover:text-white"
             >
               Explore All Services <span>→</span>
-            </a>
+            </Link>
           </Reveal>
         </div>
 

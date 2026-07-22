@@ -1,0 +1,279 @@
+{
+  "wallpapers": [
+    {
+      "name": "3D Wallpapers",
+      "slug": "3d-wallpapers",
+      "images": [
+        "/products/3d-wallpapers/1.jpg",
+        "/products/3d-wallpapers/2.jpg",
+        "/products/3d-wallpapers/3.jpg",
+        "/products/3d-wallpapers/4.jpg"
+      ]
+    },
+    {
+      "name": "Cork Wallpaper",
+      "slug": "cork-wallpaper",
+      "images": [
+        "/products/cork-wallpaper/1.jpg",
+        "/products/cork-wallpaper/2.jpg",
+        "/products/cork-wallpaper/3.jpg",
+        "/products/cork-wallpaper/4.jpg"
+      ]
+    },
+    {
+      "name": "Grasscloth Wallpaper",
+      "slug": "grasscloth-wallpaper",
+      "images": [
+        "/products/grasscloth-wallpaper/1.jpg",
+        "/products/grasscloth-wallpaper/2.jpg",
+        "/products/grasscloth-wallpaper/3.jpg",
+        "/products/grasscloth-wallpaper/4.jpg"
+      ]
+    },
+    {
+      "name": "Vinyl-Coated Wallpaper",
+      "slug": "vinyl-coated-wallpaper",
+      "images": [
+        "/products/vinyl-coated-wallpaper/1.jpg",
+        "/products/vinyl-coated-wallpaper/2.jpg",
+        "/products/vinyl-coated-wallpaper/3.jpg",
+        "/products/vinyl-coated-wallpaper/4.jpg"
+      ]
+    }
+  ],
+  "carpets-rugs": [
+    {
+      "name": "Acrylic Carpets",
+      "slug": "acrylic-carpets",
+      "images": [
+        "/products/acrylic-carpets/1.jpg",
+        "/products/acrylic-carpets/2.jpg",
+        "/products/acrylic-carpets/3.jpg",
+        "/products/acrylic-carpets/4.jpg"
+      ]
+    },
+    {
+      "name": "Grass Carpet",
+      "slug": "grass-carpet",
+      "images": [
+        "/products/grass-carpet/1.jpg",
+        "/products/grass-carpet/2.jpg",
+        "/products/grass-carpet/3.jpg",
+        "/products/grass-carpet/4.jpg"
+      ]
+    },
+    {
+      "name": "Nylon Carpets",
+      "slug": "nylon-carpets",
+      "images": [
+        "/products/nylon-carpets/1.jpg",
+        "/products/nylon-carpets/2.jpg"
+      ]
+    },
+    {
+      "name": "Olefin Fibre Carpet",
+      "slug": "olefin-fibre-carpet",
+      "images": [
+        "/products/olefin-fibre-carpet/1.jpg"
+      ]
+    },
+    {
+      "name": "Tufted Carpets",
+      "slug": "tufted-carpets",
+      "images": [
+        "/products/tufted-carpets/1.jpg",
+        "/products/tufted-carpets/2.jpg",
+        "/products/tufted-carpets/3.jpg"
+      ]
+    },
+    {
+      "name": "Velvet Carpet",
+      "slug": "velvet-carpet",
+      "images": [
+        "/products/velvet-carpet/1.jpg",
+        "/products/velvet-carpet/2.jpg",
+        "/products/velvet-carpet/3.jpg"
+      ]
+    }
+  ],
+  "curtains": [
+    {
+      "name": "Auditorium Curtains",
+      "slug": "auditorium-curtains",
+      "images": [
+        "/products/auditorium-curtains/1.jpg",
+        "/products/auditorium-curtains/2.jpg",
+        "/products/auditorium-curtains/3.jpg",
+        "/products/auditorium-curtains/4.jpg",
+        "/products/auditorium-curtains/5.jpg"
+      ]
+    },
+    {
+      "name": "Blackout Curtains",
+      "slug": "blackout-curtains",
+      "images": [
+        "/products/blackout-curtains/1.jpg",
+        "/products/blackout-curtains/2.jpg",
+        "/products/blackout-curtains/3.jpg",
+        "/products/blackout-curtains/4.jpg"
+      ]
+    },
+    {
+      "name": "Eyelet Curtains",
+      "slug": "eyelet-curtains",
+      "images": [
+        "/products/eyelet-curtains/1.jpg",
+        "/products/eyelet-curtains/2.jpg",
+        "/products/eyelet-curtains/3.jpg",
+        "/products/eyelet-curtains/4.jpg"
+      ]
+    },
+    {
+      "name": "Living Room Curtains",
+      "slug": "living-room-curtains",
+      "images": [
+        "/products/living-room-curtains/1.jpg",
+        "/products/living-room-curtains/2.jpg",
+        "/products/living-room-curtains/3.jpg"
+      ]
+    },
+    {
+      "name": "Outdoor Curtains",
+      "slug": "outdoor-curtains",
+      "images": [
+        "/products/outdoor-curtains/1.jpg",
+        "/products/outdoor-curtains/2.jpg",
+        "/products/outdoor-curtains/3.jpg"
+      ]
+    },
+    {
+      "name": "Pencil Pleat Curtains",
+      "slug": "pencil-pleat-curtains",
+      "images": [
+        "/products/pencil-pleat-curtains/1.jpg",
+        "/products/pencil-pleat-curtains/2.jpg",
+        "/products/pencil-pleat-curtains/3.jpg"
+      ]
+    },
+    {
+      "name": "Sheer Curtains",
+      "slug": "sheer-curtains",
+      "images": [
+        "/products/sheer-curtains/1.jpg",
+        "/products/sheer-curtains/2.jpg",
+        "/products/sheer-curtains/3.jpg",
+        "/products/sheer-curtains/4.jpg"
+      ]
+    },
+    {
+      "name": "Wave Curtains",
+      "slug": "wave-curtains",
+      "images": [
+        "/products/wave-curtains/1.jpg",
+        "/products/wave-curtains/2.jpg"
+      ]
+    }
+  ],
+  "blinds-shutters": [
+    {
+      "name": "Bamboo Blinds",
+      "slug": "bamboo-blinds",
+      "images": [
+        "/products/bamboo-blinds/1.jpg",
+        "/products/bamboo-blinds/2.jpg",
+        "/products/bamboo-blinds/3.jpg"
+      ]
+    },
+    {
+      "name": "Bermuda Shutters",
+      "slug": "bermuda-shutters",
+      "images": [
+        "/products/bermuda-shutters/1.jpg",
+        "/products/bermuda-shutters/2.jpg",
+        "/products/bermuda-shutters/3.jpg",
+        "/products/bermuda-shutters/4.jpg"
+      ]
+    },
+    {
+      "name": "Board & Bottom Shutters",
+      "slug": "board-and-bottom-shutters",
+      "images": [
+        "/products/board-and-bottom-shutters/1.jpg",
+        "/products/board-and-bottom-shutters/2.jpg",
+        "/products/board-and-bottom-shutters/3.jpg"
+      ]
+    },
+    {
+      "name": "Louvered Shutters",
+      "slug": "louvered-shutters",
+      "images": [
+        "/products/louvered-shutters/1.jpg",
+        "/products/louvered-shutters/2.jpg",
+        "/products/louvered-shutters/3.jpg",
+        "/products/louvered-shutters/4.jpg"
+      ]
+    },
+    {
+      "name": "Office Blinds",
+      "slug": "office-blinds",
+      "images": [
+        "/products/office-blinds/1.jpg",
+        "/products/office-blinds/2.jpg",
+        "/products/office-blinds/3.jpg",
+        "/products/office-blinds/4.jpg"
+      ]
+    },
+    {
+      "name": "Paneled Shutters",
+      "slug": "paneled-shutters",
+      "images": [
+        "/products/paneled-shutters/1.jpg",
+        "/products/paneled-shutters/2.jpg",
+        "/products/paneled-shutters/3.jpg"
+      ]
+    },
+    {
+      "name": "Roller Blinds",
+      "slug": "roller-blinds",
+      "images": [
+        "/products/roller-blinds/1.jpg",
+        "/products/roller-blinds/2.jpg",
+        "/products/roller-blinds/3.jpg",
+        "/products/roller-blinds/4.jpg"
+      ]
+    },
+    {
+      "name": "Venetian Aluminium Blinds",
+      "slug": "venetian-aluminium-blinds",
+      "images": [
+        "/products/venetian-aluminium-blinds/1.jpg",
+        "/products/venetian-aluminium-blinds/2.jpg",
+        "/products/venetian-aluminium-blinds/3.jpg",
+        "/products/venetian-aluminium-blinds/4.jpg"
+      ]
+    },
+    {
+      "name": "Vertical Blinds",
+      "slug": "vertical-blinds",
+      "images": [
+        "/products/vertical-blinds/1.jpg",
+        "/products/vertical-blinds/2.jpg",
+        "/products/vertical-blinds/3.jpg",
+        "/products/vertical-blinds/4.jpg",
+        "/products/vertical-blinds/5.jpg"
+      ]
+    }
+  ],
+  "sheds-tents": [
+    {
+      "name": "Sheds & Tents",
+      "slug": "sheds-and-tents",
+      "images": [
+        "/products/sheds-and-tents/1.jpg",
+        "/products/sheds-and-tents/2.jpg",
+        "/products/sheds-and-tents/3.jpg",
+        "/products/sheds-and-tents/4.jpg"
+      ]
+    }
+  ]
+}

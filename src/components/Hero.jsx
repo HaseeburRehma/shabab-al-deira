@@ -41,7 +41,7 @@ export default function Hero() {
       >
         <motion.p variants={item} className="eyebrow mb-5 flex items-center gap-3 text-sm font-medium text-accent">
           <span className="h-px w-10 bg-accent" />
-          Interior Furnishings in Dubai
+          Interior &amp; Outdoor Furnishings
         </motion.p>
 
         <motion.h2 variants={item} className="font-script text-3xl italic text-tan sm:text-5xl">

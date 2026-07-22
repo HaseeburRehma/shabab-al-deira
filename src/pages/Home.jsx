@@ -5,6 +5,7 @@ import MissionVision from "../components/MissionVision";
 import Services from "../components/Services";
 import Stats from "../components/Stats";
 import Gallery from "../components/Gallery";
+import CaseStudy from "../components/CaseStudy";
 import CTA from "../components/CTA";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Services />
       <Stats />
       <Gallery />
+      <CaseStudy />
       <CTA />
     </>
   );

@@ -1,4 +1,9 @@
 // ── Central brand + content config for Shabab Al Deira ──────────────
+import PRODUCTS from "./products.json";
+
+// Sub-category product ranges per service (real photos), keyed by service slug.
+export const getProducts = (slug) => PRODUCTS[slug] || [];
+
 export const BRAND = {
   name: "Shabab Al Deira",
   legal: "Shabab Al Deira Furniture Trading LLC",
@@ -23,7 +28,7 @@ export const SERVICES = [
     icon: "curtains",
     desc: "Bespoke drapery — sheers, blackouts and layered treatments tailored to every window.",
     tagline: "Bespoke drapery, tailored to every window",
-    img: img("1616486338812-3dadae4b4ace"),
+    img: "/products/living-room-curtains/1.jpg",
     intro: [
       "From soft, light-filtering sheers to full blackout drapery, our curtains are cut, sewn and fitted to your exact windows.",
       "Choose from hundreds of imported fabrics, linings and heading styles to match any interior — residential or commercial.",
@@ -41,7 +46,7 @@ export const SERVICES = [
       { t: "Professional fitting", d: "Concealed tracks and rods installed by our own team." },
       { t: "Motorisation ready", d: "Optional app and remote-controlled motorised tracks." },
     ],
-    gallery: [img("1615529182904-14819c35db37"), img("1522708323590-d24dbb6b0267")],
+    gallery: ["/products/blackout-curtains/1.jpg", "/products/eyelet-curtains/1.jpg"],
   },
   {
     slug: "blinds-shutters",
@@ -49,7 +54,7 @@ export const SERVICES = [
     icon: "blinds",
     desc: "Roller, roman, venetian and plantation shutters engineered for light and privacy.",
     tagline: "Precise light control and privacy",
-    img: img("1513694203232-719a280e022f"),
+    img: img("1609423433459-a65b330ef5da"),
     intro: [
       "Engineered window solutions that give you total control over light and privacy.",
       "From sleek roller blinds to timeless plantation shutters, we supply and fit every style to suit your space and budget.",
@@ -68,21 +73,22 @@ export const SERVICES = [
       { t: "Moisture resistant", d: "Aluminium and PVC ranges built for kitchens and baths." },
       { t: "Custom finishes", d: "Wood tones, colours and slat sizes to match your décor." },
     ],
-    gallery: [img("1600585154340-be6161a56a0c"), img("1567016432779-094069958ea5")],
+    gallery: [img("1582265214834-c02ec775947b"), img("1609423433459-a65b330ef5da")],
   },
   {
     slug: "carpets-rugs",
     title: "Carpets & Rugs",
     icon: "carpet",
-    desc: "Wall-to-wall carpeting and hand-finished rugs that ground a room in warmth.",
+    desc: "Wall-to-wall carpeting, commercial carpet tiles and hand-finished rugs.",
     tagline: "Warmth underfoot, wall to wall",
-    img: img("1600166898405-da9535204843"),
+    img: "/sis-2.jpg",
     intro: [
-      "Ground your rooms in comfort with premium carpeting and bespoke rugs.",
-      "Wall-to-wall installations, stair runners and custom-cut area rugs in wool and durable synthetic blends.",
+      "Ground your rooms in comfort with premium carpeting and bespoke rugs — for homes, offices, schools and hospitality.",
+      "Wall-to-wall installations, heavy-traffic commercial carpet tiles, stair runners and custom-cut area rugs in wool and durable synthetic blends.",
     ],
     types: [
       "Wall-to-wall carpeting",
+      "Commercial carpet tiles",
       "Custom area rugs",
       "Stair runners",
       "Masjid & prayer carpets",
@@ -94,7 +100,7 @@ export const SERVICES = [
       { t: "Custom sizes", d: "Cut and bound to any shape or dimension you need." },
       { t: "Expert installation", d: "Seam-free fitting by experienced installers." },
     ],
-    gallery: [img("1616486338812-3dadae4b4ace"), img("1618221195710-dd6b41faaea6")],
+    gallery: ["/sis-3.jpg", "/sis-4.jpg"],
   },
   {
     slug: "upholstery",
@@ -128,15 +134,16 @@ export const SERVICES = [
     icon: "wallpaper",
     desc: "Feature walls and full-room installations — textures, murals and classic prints.",
     tagline: "Feature walls with real character",
-    img: img("1618221195710-dd6b41faaea6"),
+    img: "/wp-3.jpg",
     intro: [
-      "Transform a room with a single feature wall or a full installation.",
-      "From subtle textures to bold custom murals, we supply and expertly hang wallpaper with clean, bubble-free seams.",
+      "Transform a room with a single feature wall or a full installation — from subtle textures to striking 3D panels and custom murals.",
+      "We supply and expertly hang wallpaper with clean, bubble-free seams, including backlit and dimensional feature walls for living rooms, majlis and commercial spaces.",
     ],
     types: [
+      "3D feature-wall panels",
       "Textured wallpaper",
       "Custom wall murals",
-      "3D wall panels",
+      "Backlit feature walls",
       "Kids' room designs",
       "Commercial vinyl",
     ],
@@ -146,7 +153,7 @@ export const SERVICES = [
       { t: "Custom murals", d: "Print any image or design at wall scale." },
       { t: "Surface prep", d: "We prime and prepare walls for a lasting finish." },
     ],
-    gallery: [img("1600585154340-be6161a56a0c"), img("1616486338812-3dadae4b4ace")],
+    gallery: ["/wp-2.jpg", "/wp-1.jpg", "/wp-4.jpg"],
   },
   {
     slug: "sheds-tents",
@@ -154,7 +161,7 @@ export const SERVICES = [
     icon: "tent",
     desc: "Custom outdoor shades, majlis tents and canopies built for the Gulf climate.",
     tagline: "Shade & shelter built for the Gulf",
-    img: img("1504280390367-361c6d9f38f4"),
+    img: img("1527359443443-84a48aec73d2"),
     intro: [
       "Custom outdoor structures built to withstand the Gulf climate.",
       "Majlis tents, car-park shades, canopies and pergolas in weather-resistant materials, engineered and installed to last.",
@@ -172,21 +179,21 @@ export const SERVICES = [
       { t: "Custom sizes", d: "Designed and fabricated to your exact space." },
       { t: "Steel & fabric", d: "Powder-coated frames with tensioned membranes." },
     ],
-    gallery: [img("1616137466211-f939a420be84"), img("1600585154340-be6161a56a0c")],
+    gallery: [img("1766087752966-b9a7b058b7da"), img("1527359443443-84a48aec73d2")],
   },
 ];
 
 export const getService = (slug) => SERVICES.find((s) => s.slug === slug);
 
 export const GALLERY = [
-  { src: img("1616486338812-3dadae4b4ace", 900), label: "Layered curtains" },
+  { src: "/products/living-room-curtains/1.jpg", label: "Layered curtains" },
   { src: img("1615529182904-14819c35db37", 900), label: "Living room styling" },
   { src: img("1567016432779-094069958ea5", 900), label: "Sofa upholstery" },
   { src: img("1600166898405-da9535204843", 900), label: "Hand-finished rugs" },
-  { src: img("1504280390367-361c6d9f38f4", 900), label: "Outdoor sheds & tents" },
+  { src: img("1527359443443-84a48aec73d2", 900), label: "Outdoor sheds & tents" },
   { src: img("1522708323590-d24dbb6b0267", 900), label: "Bedroom drapery" },
-  { src: img("1618221195710-dd6b41faaea6", 900), label: "Feature wallpaper" },
-  { src: img("1513694203232-719a280e022f", 900), label: "Blinds & shutters" },
+  { src: "/wp-2.jpg", label: "3D feature wallpaper" },
+  { src: "/products/office-blinds/1.jpg", label: "Blinds & shutters" },
 ];
 
 export const MISSION = [
@@ -210,5 +217,22 @@ export const STATS = [
   { value: 15, suffix: "+", label: "Years of craft" },
   { value: 2400, suffix: "+", label: "Projects delivered" },
   { value: 60, suffix: "+", label: "Fabric collections" },
-  { value: 98, suffix: "%", label: "Client satisfaction" },
+  { value: 100, suffix: "%", label: "Client satisfaction" },
 ];
+
+// Real project — Swiss International School, Dubai (commercial carpet tiles).
+export const CASE_STUDY = {
+  eyebrow: "Featured Project",
+  client: "Swiss International School, Dubai",
+  category: "Commercial Carpet Tiles",
+  summary:
+    "We supplied and installed hard-wearing commercial carpet tiles across the school's lounges, dining areas and breakout spaces — a warm, acoustic and low-maintenance floor built to take heavy daily footfall.",
+  highlights: [
+    "Commercial carpet tiles",
+    "Heavy-traffic rated",
+    "Acoustic comfort",
+    "Clean, fast installation",
+  ],
+  images: ["/sis-2.jpg", "/sis-1.jpg", "/sis-3.jpg", "/sis-4.jpg", "/sis-5.jpg"],
+  service: "carpets-rugs",
+};

@@ -39,6 +39,17 @@
         "/products/vinyl-coated-wallpaper/3.jpg",
         "/products/vinyl-coated-wallpaper/4.jpg"
       ]
+    },
+    {
+      "name": "Wood Wallpaper",
+      "slug": "wood-wallpaper",
+      "images": [
+        "/products/wood-wallpaper/1.jpg",
+        "/products/wood-wallpaper/2.jpg",
+        "/products/wood-wallpaper/3.jpg",
+        "/products/wood-wallpaper/4.jpg",
+        "/products/wood-wallpaper/5.jpg"
+      ]
     }
   ],
   "carpets-rugs": [
@@ -93,6 +104,15 @@
         "/products/velvet-carpet/1.jpg",
         "/products/velvet-carpet/2.jpg",
         "/products/velvet-carpet/3.jpg"
+      ]
+    },
+    {
+      "name": "Wool Carpets",
+      "slug": "wool-carpets",
+      "images": [
+        "/products/wool-carpets/1.jpg",
+        "/products/wool-carpets/2.jpg",
+        "/products/wool-carpets/3.jpg"
       ]
     }
   ],
@@ -171,6 +191,15 @@
       "images": [
         "/products/wave-curtains/1.jpg",
         "/products/wave-curtains/2.jpg"
+      ]
+    },
+    {
+      "name": "Window Curtains",
+      "slug": "window-curtains",
+      "images": [
+        "/products/window-curtains/1.jpg",
+        "/products/window-curtains/2.jpg",
+        "/products/window-curtains/3.jpg"
       ]
     }
   ],
@@ -261,6 +290,15 @@
         "/products/vertical-blinds/3.jpg",
         "/products/vertical-blinds/4.jpg",
         "/products/vertical-blinds/5.jpg"
+      ]
+    },
+    {
+      "name": "Window Blinds",
+      "slug": "window-blinds",
+      "images": [
+        "/products/window-blinds/1.jpg",
+        "/products/window-blinds/2.jpg",
+        "/products/window-blinds/3.jpg"
       ]
     }
   ],

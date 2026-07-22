@@ -60,14 +60,23 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3">
-          <img src="/logo-mark.svg" alt="" className="h-10 w-8" />
-          <span
-            className={`font-display text-lg font-bold leading-none tracking-wide transition-colors ${
-              solid ? "text-espresso" : "text-white"
-            }`}
-          >
-            SHABAB<span className="text-accent"> AL DEIRA</span>
+        <Link to="/" className="flex items-center gap-2.5">
+          <img src="/logo-mark.svg" alt="Shabab Al Deira — Curtains & Blinds" className="h-11 w-9" />
+          <span className="flex flex-col leading-none">
+            <span
+              className={`font-display text-lg font-bold tracking-wide transition-colors ${
+                solid ? "text-espresso" : "text-white"
+              }`}
+            >
+              SHABAB<span className="text-accent"> AL DEIRA</span>
+            </span>
+            <span
+              className={`mt-1 text-[9px] font-semibold uppercase tracking-[0.32em] transition-colors ${
+                solid ? "text-copper" : "text-cream/70"
+              }`}
+            >
+              Curtains &amp; Blinds
+            </span>
           </span>
         </Link>
 

@@ -15,9 +15,14 @@ export default function Footer() {
         {/* Brand */}
         <div className="md:col-span-2">
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo-mark.svg" alt="" className="h-11 w-9" />
-            <span className="font-display text-xl font-bold text-white">
-              SHABAB<span className="text-accent"> AL DEIRA</span>
+            <img src="/logo-mark.svg" alt="Shabab Al Deira — Curtains & Blinds" className="h-12 w-10" />
+            <span className="flex flex-col leading-none">
+              <span className="font-display text-xl font-bold text-white">
+                SHABAB<span className="text-accent"> AL DEIRA</span>
+              </span>
+              <span className="mt-1 text-[10px] font-semibold uppercase tracking-[0.32em] text-cream/60">
+                Curtains &amp; Blinds
+              </span>
             </span>
           </Link>
           <p className="mt-5 max-w-sm leading-relaxed text-cream/60">

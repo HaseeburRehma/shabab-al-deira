@@ -48,9 +48,9 @@ export default function About() {
 
           <Reveal delay={0.1}>
             <p className="mt-7 text-lg leading-relaxed text-brown/90">
-              We craft personalized, stylish interiors that combine functionality and elegance for
-              residential and commercial spaces — transforming your vision into inspiring environments that
-              enhance daily life.
+              We craft personalized, stylish interior &amp; exterior spaces that combine functionality and
+              elegance for residential and commercial projects — transforming your vision into inspiring
+              environments that enhance daily life.
             </p>
           </Reveal>
 

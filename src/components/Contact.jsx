@@ -12,7 +12,7 @@ const INFO = [
   },
   {
     label: "WhatsApp",
-    value: `Chat on ${BRAND.phone}`,
+    value: `Chat on ${BRAND.whatsappDisplay}`,
     href: `https://wa.me/${BRAND.whatsapp}`,
     tint: "bg-[#25D366]/15 text-[#1fae54]",
     fill: true,

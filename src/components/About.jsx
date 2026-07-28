@@ -28,7 +28,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="absolute -bottom-8 -right-4 w-48 rounded-2xl bg-espresso p-6 text-center text-white shadow-card sm:-right-8"
           >
-            <p className="font-display text-4xl font-extrabold text-accent">15+</p>
+            <p className="font-display text-4xl font-extrabold text-accent">25+</p>
             <p className="mt-1 text-sm text-cream/80">years transforming Dubai homes</p>
           </motion.div>
           <div className="absolute -left-6 -top-6 -z-0 h-32 w-32 rounded-3xl border-2 border-tan/50" />

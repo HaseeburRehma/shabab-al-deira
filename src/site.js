@@ -10,7 +10,8 @@ export const BRAND = {
   tagline: "Designing Spaces, Enhancing Lives.",
   phone: "+971 55 788 6990",
   phoneRaw: "+971557886990",
-  whatsapp: "971557886990",
+  whatsapp: "971558586197",
+  whatsappDisplay: "+971 55 858 6197",
   web: "www.sdcurtains.com",
   address: "Naif Road, Deira, near Khalid Mosque, P.O. Box 60385, Dubai, UAE",
   email: "info@sdcurtains.com",
@@ -199,7 +200,7 @@ export const GALLERY = [
 export const MISSION = [
   {
     title: "Our Story",
-    text: "Founded in the heart of Deira, Shabab Al Deira has spent over 15 years dressing Dubai's homes, villas and offices — blending true craftsmanship with a personal, door-to-door service.",
+    text: "Founded in the heart of Deira, Shabab Al Deira has spent over 25 years dressing Dubai's homes, villas and offices — blending true craftsmanship with a personal, door-to-door service.",
   },
   {
     title: "Our Mission",
@@ -214,9 +215,9 @@ export const MISSION = [
 export const MISSION_IMG = img("1600585154340-be6161a56a0c", 1100);
 
 export const STATS = [
-  { value: 15, suffix: "+", label: "Years of craft" },
+  { value: 25, suffix: "+", label: "Years of craft" },
   { value: 2400, suffix: "+", label: "Projects delivered" },
-  { value: 60, suffix: "+", label: "Fabric collections" },
+  { value: 150, suffix: "+", label: "Fabric collections" },
   { value: 100, suffix: "%", label: "Client satisfaction" },
 ];
 
